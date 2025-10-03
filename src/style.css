@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+/* Tell Tailwind where to scan for classes */
+@source './src/**/*.{vue,js,ts,jsx,tsx}';
+@source '../node_modules/@gsa/vue-ui/src/**/*.vue';
+
+/* Import the UI package styles */
+@import '@gsa/vue-ui/styles.css';
